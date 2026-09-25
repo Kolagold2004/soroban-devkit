@@ -596,7 +596,7 @@ fn invoke_with_abi_decodes_return_value_pretty() {
         .args([
             "invoke",
             VALID_CONTRACT,
-            "increment",
+            "transfer",
             "--identity",
             "alice",
             "--network-profile",
@@ -628,7 +628,7 @@ fn invoke_with_abi_json_includes_decoded_and_meta() {
         .args([
             "invoke",
             VALID_CONTRACT,
-            "increment",
+            "transfer",
             "--identity",
             "alice",
             "--network-profile",
